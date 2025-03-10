@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Хедер */
+header {
+    background-image: url(https://learn.logikaschool.com/uploads/student/1839840/67a75581d4ad9.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2d6a4f; /* темно-зелений для заголовків */
+}
+
+/* Головний контейнер */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Навігація */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(83, 158, 63);
+    background-color: rgb(222, 222, 17);
+    font-size: 18px;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #ff6600;
+    transform: scale(1.1);
+}
+
+nav a.active {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+}
+
+/* Про нас */
+.about {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Фішки магазину */
+.store-features ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.store-features li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Адреси */
+.addresses {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.addresses h3 {
+    margin-bottom: 10px;
+    color: #2d6a4f;
+}
+
+/* Футер */
+footer {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 20px 0;
+}
+
+footer h1 {
+    font-size: 2em;
+}
+
+footer h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
